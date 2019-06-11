@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import google
+import time
+from google search import search
+# take input from user
+web=input("what you want to search:")
+#create a list 
+url=[]
+for i in search(web,stop=10):
+	url.append(i)
+	time.sleep(1)
+
+print(url)		
